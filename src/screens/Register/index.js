@@ -4,6 +4,7 @@ import tailwind from "twrnc";
 import { Formik } from 'formik'
 import * as Yup from 'yup'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Button, TextInput, Image  } from '../../components'
 import { auth, db } from '../../firebase'
 import { collection, addDoc } from "firebase/firestore"
@@ -48,6 +49,7 @@ export default function Register({ navigation }){
             await AsyncStorage.setItem('userId', data?.user?.uid)
             navigation.navigate('Home')
         }catch(error){
+            console.log({error})
             actions.setErrors({ email: 'Email já cadastrado, favor digitar outro'})
         }
     }   
