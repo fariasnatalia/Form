@@ -1,4 +1,6 @@
-nstalando React-Native
+expo install -camera
+
+instalando React-Native
 
 ```npx expo install react-native-web@~0.19.6 react-dom@18.2.0```
 ou
