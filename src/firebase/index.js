@@ -8,12 +8,13 @@ import { getFirestore } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAZ1FC0ukjk7pEU6taW2PmilzxkJkWcBcA",
-  authDomain: "bike-roubada.firebaseapp.com",
-  projectId: "bike-roubada",
-  storageBucket: "bike-roubada.appspot.com",
-  messagingSenderId: "1060066755769",
-  appId: "1:1060066755769:web:e306895777ba06de118768"
+  apiKey: "AIzaSyAk1idNhLzvK5KD4FOpDdwoZgbvDCyZAFc",
+  authDomain: "bike-roubada-9cfbc.firebaseapp.com",
+  projectId: "bike-roubada-9cfbc",
+  storageBucket: "bike-roubada-9cfbc.appspot.com",
+  messagingSenderId: "52698129265",
+  appId: "1:52698129265:web:ecbad512c9503cce4e4cd0",
+  measurementId: "G-KE36YW8PX8"
 };
 
 // Initialize Firebase
